@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO ESTRATÉGICO -->
+    <title>Ferbenterra | Reformas Integrales en Gandía y La Safor | 20 Años</title>
+    <meta name="description" content="Reformas en Gandía, Oliva y La Safor. 20 años de experiencia. Presupuesto cerrado, limpieza garantizada y acabados de alta calidad. Sin sorpresas.">
+    <meta name="keywords" content="reformas gandia, reformas integrales la safor, cocinas oliva, baños gandia, pintores gandia, tejados la safor">
+    
+    <!-- FRAMEWORKS Y FUENTES -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #0F172A; /* Gris Pizarra Profundo */
+            --accent: #D97706;  /* Ámbar Dorado */
+            --bg-light: #F8FAFC;
+        }
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; background-color: var(--bg-light); }
+        h1, h2, h3, .font-title { font-family: 'Montserrat', sans-serif; }
+        
+        .bg-slate-custom { background-color: var(--primary); }
+        .text-amber-custom { color: var(--accent); }
+        .bg-amber-custom { background-color: var(--accent); }
+        
+        .btn-premium {
+            background-color: var(--accent);
+            transition: all 0.4s ease;
+        }
+        .btn-premium:hover {
+            background-color: #B45309;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(217, 119, 6, 0.3);
+        }
+        .img-zoom { overflow: hidden; border-radius: 0.75rem; }
+        .img-zoom img { transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
+        .img-zoom:hover img { transform: scale(1.08); }
+        
+        .divider { width: 60px; height: 4px; background-color: var(--accent); margin: 1.5rem auto; }
+        
+        /* Animación suave de entrada */
+        .fade-in { animation: fadeIn 1s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body class="text-slate-900">
+
+    <!-- NAVEGACIÓN -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm py-4 px-6">
+        <div class="container mx-auto flex flex-wrap justify-between items-center">
+            <div class="text-2xl font-800 tracking-tighter text-slate-custom font-title italic">
+                FERBEN<span class="text-amber-custom font-light italic">TERRA</span>
+            </div>
+            
+            <div class="hidden lg:flex space-x-8 font-bold text-slate-custom text-sm uppercase tracking-widest">
+                <a href="#servicios" class="hover:text-amber-custom transition">Servicios</a>
+                <a href="#proyectos" class="hover:text-amber-custom transition">Proyectos</a>
+                <a href="#nosotros" class="hover:text-amber-custom transition">Confianza</a>
+                <a href="#contacto" class="hover:text-amber-custom transition">Presupuesto</a>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:space-x-6 items-end md:items-center font-bold">
+                <a href="tel:+34661121331" class="text-slate-custom hover:text-amber-custom transition text-sm">
+                    <i class="fas fa-phone-alt text-amber-custom mr-2"></i> 661 12 13 31
+                </a>
+                <a href="tel:+34626752128" class="text-slate-custom hover:text-amber-custom transition text-sm">
+                    <i class="fas fa-phone-alt text-amber-custom mr-2"></i> 626 752 128
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="relative h-[85vh] flex items-center justify-center text-white overflow-hidden fade-in">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover" alt="Reforma Integral Gandía">
+            <div class="absolute inset-0 bg-slate-900/60"></div>
+        </div>
+        <div class="relative z-10 max-w-5xl px-6 text-center">
+            <span class="uppercase tracking-[0.3em] text-amber-custom font-semibold mb-4 block text-sm">Desde 2004 en La Safor</span>
+            <h1 class="text-4xl md:text-7xl font-800 mb-6 leading-tight font-title">REFORMAS SIN SORPRESAS. <br><span class="font-light italic">HOGARES CON ALMA.</span></h1>
+            <p class="text-lg md:text-2xl mb-10 font-light max-w-3xl mx-auto text-slate-200 italic">Expertos en transformar viviendas con presupuesto cerrado y ejecución impecable.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contacto" class="btn-premium text-white px-10 py-5 rounded-full font-bold uppercase tracking-wider shadow-xl transition-all">
+                    Solicitar Estudio Gratuito
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- BARRA DE DATOS -->
+    <section class="bg-white py-12 border-b">
+        <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center uppercase text-[10px] md:text-xs tracking-[0.2em] font-bold text-slate-500">
+            <div><span class="block text-2xl text-slate-900 mb-1">20 AÑOS</span> TRAYECTORIA</div>
+            <div><span class="block text-2xl text-slate-900 mb-1">PRECIO</span> CERRADO</div>
+            <div><span class="block text-2xl text-slate-900 mb-1">LIMPIEZA</span> GARANTIZADA</div>
+            <div><span class="block text-2xl text-slate-900 mb-1">CALIDAD</span> PREMIUM</div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-24 container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-16 text-center italic">
+            <div class="group p-4">
+                <div class="w-20 h-20 bg-slate-custom text-amber-custom rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-custom group-hover:text-white transition-all duration-500">
+                    <i class="fas fa-layer-group text-3xl"></i>
+                </div>
+                <h3 class="text-xl font-bold uppercase mb-4 tracking-tighter">Reformas Integrales</h3>
+                <p class="text-slate-500 leading-relaxed italic">Dejamos tu vivienda lista para entrar a vivir. Gestión total de gremios y licencias.</p>
+            </div>
+            <div class="group p-4">
+                <div class="w-20 h-20 bg-slate-custom text-amber-custom rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-custom group-hover:text-white transition-all duration-500">
+                    <i class="fas fa-sink text-3xl"></i>
+                </div>
+                <h3 class="text-xl font-bold uppercase mb-4 tracking-tighter">Cocinas y Baños</h3>
+                <p class="text-slate-500 leading-relaxed italic">Diseños optimizados para el día a día con acabados que marcan la diferencia.</p>
+            </div>
+            <div class="group p-4">
+                <div class="w-20 h-20 bg-slate-custom text-amber-custom rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-custom group-hover:text-white transition-all duration-500">
+                    <i class="fas fa-shield-alt text-3xl"></i>
+                </div>
+                <h3 class="text-xl font-bold uppercase mb-4 tracking-tighter">Tejados y Fachadas</h3>
+                <p class="text-slate-500 leading-relaxed italic">Especialistas en impermeabilización y mantenimiento estructural duradero.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA DE PROYECTOS -->
+    <section id="proyectos" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-3xl md:text-5xl font-800 text-slate-custom uppercase font-title italic">Nuestras Obras</h2>
+                <div class="divider"></div>
+                <p class="text-slate-500 max-w-2xl mx-auto italic">Proyectos reales terminados en Gandía, Oliva y toda La Safor.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Proyectos con Imágenes Verificadas -->
+                <div class="img-zoom bg-white shadow-sm hover:shadow-xl transition-all duration-500 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=800" class="w-full h-72 object-cover" alt="Salón">
+                    <div class="p-8">
+                        <h4 class="font-bold text-slate-900 uppercase">Residencial Playa Gandía</h4>
+                        <p class="text-amber-custom text-xs font-bold uppercase mt-2 tracking-widest italic">Reforma Integral</p>
+                    </div>
+                </div>
+                <div class="img-zoom bg-white shadow-sm hover:shadow-xl transition-all duration-500 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&q=80&w=800" class="w-full h-72 object-cover" alt="Cocina">
+                    <div class="p-8">
+                        <h4 class="font-bold text-slate-900 uppercase">Cocina de Autor Oliva</h4>
+                        <p class="text-amber-custom text-xs font-bold uppercase mt-2 tracking-widest italic">Diseño a medida</p>
+                    </div>
+                </div>
+                <div class="img-zoom bg-white shadow-sm hover:shadow-xl transition-all duration-500 rounded-2xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800" class="w-full h-72 object-cover" alt="Baño">
+                    <div class="p-8">
+                        <h4 class="font-bold text-slate-900 uppercase">Baño Suite Gandía Centro</h4>
+                        <p class="text-amber-custom text-xs font-bold uppercase mt-2 tracking-widest italic">Confort Moderno</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS (EL CIERRE DE CONFIANZA) -->
+    <section class="py-24 bg-white overflow-hidden italic">
+        <div class="container mx-auto px-6 text-center font-bold">
+            <h2 class="text-2xl uppercase tracking-widest mb-16 text-slate-400 font-bold">Lo que dicen nuestros vecinos</h2>
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <div class="text-left p-8 bg-slate-50 rounded-2xl border-l-4 border-amber-custom italic">
+                    <p class="text-slate-600 mb-6 italic">"Después de malas experiencias con otras empresas, Ferbenterra nos devolvió la tranquilidad. Cumplieron el presupuesto al céntimo y el plazo fue exacto."</p>
+                    <span class="font-bold text-slate-900 uppercase text-sm italic italic">— Juan M., Playa de Gandía</span>
+                </div>
+                <div class="text-left p-8 bg-slate-50 rounded-2xl border-l-4 border-amber-custom italic">
+                    <p class="text-slate-600 mb-6 italic italic">"La cocina quedó espectacular, pero lo que más valoramos fue la limpieza. Cada día dejaban todo recogido y al terminar estaba listo para usar."</p>
+                    <span class="font-bold text-slate-900 uppercase text-sm italic italic italic">— Rosa S., Oliva</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO FINAL -->
+    <section id="contacto" class="py-32 bg-slate-custom text-white relative">
+        <div class="container mx-auto px-6 text-center relative z-10 font-bold">
+            <h2 class="text-4xl md:text-6xl font-800 mb-8 font-title uppercase italic">¿Empezamos tu <br><span class="text-amber-custom font-light">nueva casa?</span></h2>
+            <p class="text-xl text-slate-400 mb-16 italic italic">Estamos en Gandía. Llámanos y te visitamos hoy mismo.</p>
+            
+            <div class="flex flex-col md:flex-row gap-8 justify-center items-center mb-20 font-bold">
+                <a href="tel:+34661121331" class="w-full md:w-auto bg-amber-custom text-white py-6 px-12 rounded-full text-2xl font-bold shadow-2xl transition-all hover:scale-105">
+                    <i class="fas fa-phone-alt mr-4"></i> 661 12 13 31
+                </a>
+                <a href="tel:+34626752128" class="w-full md:w-auto bg-transparent border-2 border-white text-white py-6 px-12 rounded-full text-2xl font-bold hover:bg-white hover:text-slate-900 transition-all hover:scale-105 italic">
+                    <i class="fas fa-phone-alt mr-4"></i> 626 752 128
+                </a>
+            </div>
+
+            <!-- FORMULARIO SEO -->
+            <form class="max-w-xl mx-auto bg-white/5 p-8 rounded-2xl backdrop-blur-md italic font-bold">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 font-bold">
+                    <input type="text" placeholder="Nombre" class="bg-white/10 border border-white/20 p-4 rounded outline-none focus:border-amber-custom text-white placeholder-white/50 italic font-bold" required>
+                    <input type="tel" placeholder="Teléfono" class="bg-white/10 border border-white/20 p-4 rounded outline-none focus:border-amber-custom text-white placeholder-white/50 italic font-bold" required>
+                </div>
+                <button type="submit" class="w-full bg-white text-slate-custom py-4 font-bold uppercase tracking-widest hover:bg-amber-custom hover:text-white transition-all font-bold">Solicitar Llamada</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER SEO LOCAL -->
+    <footer class="bg-white py-20 border-t font-bold">
+        <div class="container mx-auto px-6 text-center font-bold">
+            <div class="text-3xl font-800 text-slate-custom mb-4 font-title italic">FERBENTERRA</div>
+            <p class="text-slate-400 max-w-lg mx-auto mb-10 text-sm leading-relaxed italic">
+                Empresa de reformas de referencia en Gandía, Oliva, Bellreguard, Daimús, Miramar, Xeraco y toda La Safor. Especialistas en transformar ilusiones en realidades sólidas.
+            </p>
+            <div class="flex justify-center space-x-8 text-2xl text-slate-300 mb-12">
+                <a href="#" class="hover:text-amber-custom transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-amber-custom transition"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p class="text-[10px] uppercase tracking-[0.4em] text-slate-300 font-bold">
+                © 2024 Ferbenterra - Construyendo con Confianza
+            </p>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/34661121331?text=Hola%20Ferbenterra,%20me%20gustaría%20pedir%20presupuesto%20para%20una%20reforma." 
+       class="fixed bottom-8 right-8 bg-green-500 text-white p-5 rounded-full shadow-2xl z-50 text-4xl hover:bg-green-600 transition transform hover:scale-110" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
